@@ -39,6 +39,7 @@
           Construit avec vueJS et le
           <a
             href="https://dev.to/markjohnson303/building-a-portfolio-site-with-vue-bulma-and-airtable-5a58"
+            target="_blank"
           >tutoriel</a> de Mark Johnson
         </p>
       </div>

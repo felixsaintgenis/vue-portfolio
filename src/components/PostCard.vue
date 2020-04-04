@@ -2,8 +2,8 @@
   <div class="post-card">
     <div class="card">
       <div class="card-image">
-        <figure class="image is-square">
-          <img :src="image" alt="Placeholder image" />
+        <figure class="image is-16by9">
+          <img class="image" :src="image" alt="project image" />
         </figure>
       </div>
       <div class="card-content">

@@ -3,7 +3,7 @@
     <section class="hero is-info is-bold">
       <div class="hero-body">
         <div class="container">
-          <h1 class="title is-2">Les projets</h1>
+          <h1 class="title is-2">Les Projets</h1>
         </div>
       </div>
     </section>
@@ -51,8 +51,8 @@ export default {
         let project = {
           title: this.airtableResponse[i].fields.Title,
           image: this.airtableResponse[i].fields.Attachments[0].url,
-          slug: this.airtableResponse[i].fields.slug,
-          body: this.airtableResponse[i].fields.body
+          slug: this.airtableResponse[i].fields.Slug,
+          body: this.airtableResponse[i].fields.Body
         };
         projectList.push(project);
       }
